@@ -1,0 +1,11 @@
+[2024-04-22 20:29:29,632] 157 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2024-04-22 20:29:30,286] 225 werkzeug - WARNING -  * Debugger is active!
+[2024-04-22 20:29:30,287] 225 werkzeug - WARNING -  * Debugger is active!
+[2024-04-22 20:29:30,304] 225 werkzeug - INFO -  * Debugger PIN: 276-898-987
+[2024-04-22 20:29:30,305] 225 werkzeug - INFO -  * Debugger PIN: 276-898-987
+[2024-04-22 20:29:30,305] 225 werkzeug - INFO -  * Debugger PIN: 276-898-987
+[2024-04-22 20:29:31,338] 225 werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2024-04-22 20:29:31,339] 225 werkzeug - INFO -  * Running on http://192.168.0.107:5000/ (Press CTRL+C to quit)
+[2024-04-22 20:31:34,735] 225 werkzeug - INFO -  * Detected change in 'D:\\ML_Pipeline\\src\\components\\data_transformation.py', reloading
+[2024-04-22 20:31:34,736] 225 werkzeug - INFO -  * Detected change in 'd:\\ML_Pipeline\\src\\components\\data_transformation.py', reloading

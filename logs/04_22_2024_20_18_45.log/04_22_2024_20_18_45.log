@@ -1,0 +1,26 @@
+[2024-04-22 20:18:46,868] 157 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2024-04-22 20:18:47,161] 225 werkzeug - WARNING -  * Debugger is active!
+[2024-04-22 20:18:47,172] 225 werkzeug - INFO -  * Debugger PIN: 276-898-987
+[2024-04-22 20:18:48,435] 225 werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2024-04-22 20:18:48,435] 225 werkzeug - INFO -  * Running on http://192.168.0.107:5000/ (Press CTRL+C to quit)
+[2024-04-22 20:29:24,665] 225 werkzeug - INFO -  * Detected change in 'C:\\Users\\Hp\\Anaconda3\\Lib\\site-packages\\numpy\\typing\\__init__.py', reloading
+[2024-04-22 20:29:24,681] 225 werkzeug - INFO -  * Detected change in 'C:\\Users\\Hp\\Anaconda3\\Lib\\site-packages\\numpy\\typing\\_array_like.py', reloading
+[2024-04-22 20:29:24,684] 225 werkzeug - INFO -  * Detected change in 'C:\\Users\\Hp\\Anaconda3\\Lib\\site-packages\\numpy\\typing\\_scalars.py', reloading
+[2024-04-22 20:29:24,807] 225 werkzeug - INFO -  * Detected change in 'C:\\Users\\Hp\\Anaconda3\\Lib\\site-packages\\numpy\\typing\\_dtype_like.py', reloading
+[2024-04-22 20:29:24,810] 225 werkzeug - INFO -  * Detected change in 'C:\\Users\\Hp\\Anaconda3\\Lib\\site-packages\\numpy\\typing\\_shape.py', reloading
+[2024-04-22 20:29:24,846] 225 werkzeug - INFO -  * Detected change in 'C:\\Users\\Hp\\Anaconda3\\Lib\\site-packages\\joblib\\__init__.py', reloading
+[2024-04-22 20:29:24,851] 225 werkzeug - INFO -  * Detected change in 'C:\\Users\\Hp\\Anaconda3\\Lib\\site-packages\\joblib\\memory.py', reloading
+[2024-04-22 20:29:24,871] 225 werkzeug - INFO -  * Detected change in 'C:\\Users\\Hp\\Anaconda3\\Lib\\site-packages\\joblib\\logger.py', reloading
+[2024-04-22 20:29:24,896] 225 werkzeug - INFO -  * Detected change in 'C:\\Users\\Hp\\Anaconda3\\Lib\\site-packages\\scipy\\sparse\\__init__.py', reloading
+[2024-04-22 20:29:24,900] 225 werkzeug - INFO -  * Detected change in 'C:\\Users\\Hp\\Anaconda3\\Lib\\site-packages\\scipy\\sparse\\base.py', reloading
+[2024-04-22 20:29:24,916] 225 werkzeug - INFO -  * Detected change in 'C:\\Users\\Hp\\Anaconda3\\Lib\\site-packages\\scipy\\sparse\\csr.py', reloading
+[2024-04-22 20:29:24,921] 225 werkzeug - INFO -  * Detected change in 'C:\\Users\\Hp\\Anaconda3\\Lib\\site-packages\\scipy\\sparse\\csc.py', reloading
+[2024-04-22 20:29:24,925] 225 werkzeug - INFO -  * Detected change in 'C:\\Users\\Hp\\Anaconda3\\Lib\\site-packages\\scipy\\sparse\\lil.py', reloading
+[2024-04-22 20:29:24,938] 225 werkzeug - INFO -  * Detected change in 'C:\\Users\\Hp\\Anaconda3\\Lib\\site-packages\\scipy\\sparse\\dok.py', reloading
+[2024-04-22 20:29:24,957] 225 werkzeug - INFO -  * Detected change in 'C:\\Users\\Hp\\Anaconda3\\Lib\\site-packages\\scipy\\sparse\\coo.py', reloading
+[2024-04-22 20:29:24,968] 225 werkzeug - INFO -  * Detected change in 'C:\\Users\\Hp\\Anaconda3\\Lib\\site-packages\\scipy\\sparse\\dia.py', reloading
+[2024-04-22 20:29:24,978] 225 werkzeug - INFO -  * Detected change in 'C:\\Users\\Hp\\Anaconda3\\Lib\\site-packages\\scipy\\sparse\\bsr.py', reloading
+[2024-04-22 20:29:24,987] 225 werkzeug - INFO -  * Detected change in 'C:\\Users\\Hp\\Anaconda3\\Lib\\site-packages\\scipy\\sparse\\construct.py', reloading
+[2024-04-22 20:29:25,000] 225 werkzeug - INFO -  * Detected change in 'C:\\Users\\Hp\\Anaconda3\\Lib\\site-packages\\scipy\\sparse\\extract.py', reloading
+[2024-04-22 20:29:25,003] 225 werkzeug - INFO -  * Detected change in 'C:\\Users\\Hp\\Anaconda3\\Lib\\site-packages\\scipy\\sparse\\_matrix_io.py', reloading

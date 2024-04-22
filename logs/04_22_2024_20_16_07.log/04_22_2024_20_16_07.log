@@ -1,0 +1,28 @@
+[2024-04-22 20:16:09,171] 157 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2024-04-22 20:16:09,171] 157 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2024-04-22 20:16:09,466] 225 werkzeug - WARNING -  * Debugger is active!
+[2024-04-22 20:16:09,466] 225 werkzeug - WARNING -  * Debugger is active!
+[2024-04-22 20:16:09,478] 225 werkzeug - INFO -  * Debugger PIN: 276-898-987
+[2024-04-22 20:16:10,689] 225 werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2024-04-22 20:16:10,689] 225 werkzeug - INFO -  * Running on http://192.168.0.107:5000/ (Press CTRL+C to quit)
+[2024-04-22 20:16:41,681] 225 werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 20:16:41] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2024-04-22 20:16:41,964] 225 werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 20:16:41] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2024-04-22 20:16:41,965] 225 werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 20:16:41] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2024-04-22 20:16:41,979] 225 werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 20:16:41] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2024-04-22 20:16:42,008] 225 werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 20:16:42] "GET /predict?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2024-04-22 20:16:42,021] 225 werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 20:16:42] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2024-04-22 20:16:47,472] 225 werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 20:16:47] "GET / HTTP/1.1" 200 -
+[2024-04-22 20:16:54,012] 225 werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 20:16:54] "GET /predict HTTP/1.1" 200 -
+[2024-04-22 20:17:17,210] 65 root - INFO - Error occured in get_data_as_dataframe function in prediction_pipeline
+[2024-04-22 20:17:17,227] 225 werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 20:17:17] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2024-04-22 20:17:17,244] 225 werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 20:17:17] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2024-04-22 20:17:17,247] 225 werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 20:17:17] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2024-04-22 20:17:17,256] 225 werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 20:17:17] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2024-04-22 20:17:17,287] 225 werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 20:17:17] "GET /predict?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2024-04-22 20:17:17,303] 225 werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 20:17:17] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2024-04-22 20:18:06,335] 225 werkzeug - INFO -  * Detected change in 'd:\\ML_Pipeline\\src\\pipelines\\pred_pipeline.py', reloading
+[2024-04-22 20:18:06,338] 225 werkzeug - INFO -  * Detected change in 'd:\\ML_Pipeline\\src\\pipelines\\pred_pipeline.py', reloading
+[2024-04-22 20:18:06,338] 225 werkzeug - INFO -  * Detected change in 'D:\\ML_Pipeline\\src\\pipelines\\pred_pipeline.py', reloading
+[2024-04-22 20:18:06,339] 225 werkzeug - INFO -  * Detected change in 'd:\\ML_Pipeline\\src\\pipelines\\pred_pipeline.py', reloading
+[2024-04-22 20:18:06,339] 225 werkzeug - INFO -  * Detected change in 'D:\\ML_Pipeline\\src\\pipelines\\pred_pipeline.py', reloading

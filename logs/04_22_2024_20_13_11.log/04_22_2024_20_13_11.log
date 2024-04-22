@@ -1,0 +1,9 @@
+[2024-04-22 20:13:12,458] 157 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2024-04-22 20:13:12,780] 225 werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+[2024-04-22 20:15:37,276] 225 werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+[2024-04-22 20:16:07,084] 225 werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+[2024-04-22 20:18:07,768] 225 werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+[2024-04-22 20:29:26,273] 225 werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+[2024-04-22 20:31:36,478] 225 werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+[2024-04-22 20:32:57,870] 225 werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+[2024-04-22 20:33:08,737] 225 werkzeug - INFO -  * Restarting with watchdog (windowsapi)

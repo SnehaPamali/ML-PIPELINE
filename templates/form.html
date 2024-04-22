@@ -1,0 +1,68 @@
+<html>
+<body>
+<form action="{{url_for('predict_datapoint')}}" method="POST">
+    <div class="form-group">
+        <label for="month">Month:</label>
+        <input type="text" id="month" name="month" placeholder="Enter month">
+    </div>
+
+    <div class="form-group">
+        <label for="day">Day:</label>
+        <input type="text" id="day" name="day" placeholder="Enter day">
+    </div>
+
+    <div class="form-group">  
+        <label for="order">order:</label>
+        <input type="text" id="order" name="order" placeholder="Enter order value">
+    </div>
+    
+    <div class="form-group">
+        <label for="country">country:</label>
+        <input type="text" id="country" name="country" placeholder="Enter country name">
+    </div>
+  
+    <div class="form-group">
+        <label for="sessionID">Session ID:</label>
+        <input type="text" id="sessionID" name="sessionID" placeholder="Enter session ID">
+    </div>
+  
+    <div class="form-group">
+        <label for="page1_main_category">page1_main_category:</label>
+        <input type="text" id="page1_main_category" name="page1_main_category" placeholder="Enter page1 main category">
+    </div>        
+    <div class="form-group">
+        <label for="page2_clothing_model">page2_clothing_model:</label>
+        <input type="text" id="page2_clothing_model" name="page2_clothing_model" placeholder="Enter page2_clothing_model">
+    </div>   
+   
+    <div class="form-group">
+        <label for="price">price</label>
+        <input type="text" id="price" name="price" placeholder="Enter price">
+    </div>      
+  
+<div class="form-group">
+  <label for="colour">colour:</label>
+  <select id="colour" name="colour">
+    <option value="beige">beige</option>
+    <option value="black">black</option>
+    <option value="blue">blue</option>
+    <option value="brown">brown</option>
+    <option value="burgundy">burgundy</option>
+    <option value="gray">gray</option>
+    <option value="green">green</option>
+    <option value="navy blue">navy blue</option>
+    <option value="of many colors">of many colors</option>
+    <option value="olive">olive</option>
+    <option value="pink">pink</option>
+    <option value="red">red</option>
+    <option value="voilet">voilet</option>
+    <option value="white">white</option>
+  </select>
+</div>
+  
+
+<div style="clear:both;"></div>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
