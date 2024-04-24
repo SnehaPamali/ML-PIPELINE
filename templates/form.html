@@ -1,68 +1,65 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
 <body>
-<form action="{{url_for('predict_datapoint')}}" method="POST">
-    <div class="form-group">
+    <h2>Enter Data for Prediction</h2>
+    <form action="{{url_for('predict_datapoint')}}" method="POST">
+
         <label for="month">Month:</label>
-        <input type="text" id="month" name="month" placeholder="Enter month">
-    </div>
-
-    <div class="form-group">
+        <input type="text" id="month" name="month" required><br><br>
+        
         <label for="day">Day:</label>
-        <input type="text" id="day" name="day" placeholder="Enter day">
-    </div>
-
-    <div class="form-group">  
-        <label for="order">order:</label>
-        <input type="text" id="order" name="order" placeholder="Enter order value">
-    </div>
-    
-    <div class="form-group">
-        <label for="country">country:</label>
-        <input type="text" id="country" name="country" placeholder="Enter country name">
-    </div>
-  
-    <div class="form-group">
+        <input type="number" id="day" name="day" required><br><br>
+        
+        <label for="order">Order:</label>
+        <input type="number" id="order" name="order" required><br><br>
+        
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" required><br><br>
+        
         <label for="sessionID">Session ID:</label>
-        <input type="text" id="sessionID" name="sessionID" placeholder="Enter session ID">
-    </div>
-  
-    <div class="form-group">
-        <label for="page1_main_category">page1_main_category:</label>
-        <input type="text" id="page1_main_category" name="page1_main_category" placeholder="Enter page1 main category">
-    </div>        
-    <div class="form-group">
-        <label for="page2_clothing_model">page2_clothing_model:</label>
-        <input type="text" id="page2_clothing_model" name="page2_clothing_model" placeholder="Enter page2_clothing_model">
-    </div>   
-   
-    <div class="form-group">
-        <label for="price">price</label>
-        <input type="text" id="price" name="price" placeholder="Enter price">
-    </div>      
-  
-<div class="form-group">
-  <label for="colour">colour:</label>
-  <select id="colour" name="colour">
-    <option value="beige">beige</option>
-    <option value="black">black</option>
-    <option value="blue">blue</option>
-    <option value="brown">brown</option>
-    <option value="burgundy">burgundy</option>
-    <option value="gray">gray</option>
-    <option value="green">green</option>
-    <option value="navy blue">navy blue</option>
-    <option value="of many colors">of many colors</option>
-    <option value="olive">olive</option>
-    <option value="pink">pink</option>
-    <option value="red">red</option>
-    <option value="voilet">voilet</option>
-    <option value="white">white</option>
-  </select>
-</div>
-  
+        <input type="number" id="sessionID" name="sessionID" required><br><br>
+        
+        <!-- Dropdown menu for page1_main_category with provided options -->
+        <label for="page1_main_category">Page 1 (Main Category):</label>
+        <select id="page1_main_category" name="page1_main_category" required>
+            <option value="trousers">Trousers</option>
+            <option value="skirts">Skirts</option>
+            <option value="blouses">Blouses</option>
+            <option value="sale">Sale</option>
+        </select><br><br>
+        
+        <label for="page2_clothing_model">Page 2 (Clothing Model):</label>
+        <input type="text" id="page2_clothing_model" name="page2_clothing_model" required><br><br>
+        
+        <!-- Dropdown menu for colour with provided options -->
+        <label for="colour">Colour:</label>
+        <select id="colour" name="colour" required>
+            <option value="beige">Beige</option>
+            <option value="olive">Olive</option>
+            <option value="gray">Gray</option>
+            <option value="brown">Brown</option>
+            <option value="burgundy">Burgundy</option>
+            <option value="of many colors">Of Many Colors</option>
+            <option value="red">Red</option>
+            <option value="pink">Pink</option>
+            <option value="black">Black</option>
+            <option value="blue">Blue</option>
+            <option value="violet">Violet</option>
+            <option value="white">White</option>
+            <option value="green">Green</option>
+            <option value="navy blue">Navy Blue</option>
+        </select><br><br>
+        
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" step="0.01" required><br><br>
 
-<div style="clear:both;"></div>
-  <input type="submit" value="Submit">
-</form>
+        
+        <button type="submit">Predict</button>
+    </form>
 </body>
 </html>

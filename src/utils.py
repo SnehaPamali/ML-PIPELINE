@@ -1,15 +1,8 @@
-import os 
-import sys 
-import pickle 
+import pickle
+import sys
 from src.exception import CustomException
-from sklearn.metrics import r2_score
 from src.logger import logging
 
-def save_function(file_path, obj): 
-    dir_path = os.path.dirname(file_path)
-    os.makedirs(dir_path, exist_ok= True)
-    with open (file_path, "wb") as file_obj: 
-        pickle.dump(obj, file_obj)
 def model_performance(X_train, y_train, X_test, y_test, models): 
     try: 
         report = {}
@@ -26,12 +19,25 @@ def model_performance(X_train, y_train, X_test, y_test, models):
 
     except Exception as e: 
         raise CustomException(e,sys)
-
-# Function to load a particular object 
+    
 def load_obj(file_path):
-    try: 
-        with open(file_path, 'rb') as file_obj: 
+    try:
+        with open(file_path, 'rb') as file_obj:
             return pickle.load(file_obj)
-    except Exception as e: 
-        logging.info("Error in load_object fuction in utils")
-        raise CustomException(e,sys)
+    except FileNotFoundError:
+        error_message = f"File '{file_path}' not found"
+        logging.error(error_message)
+        raise CustomException(error_message, sys)
+    except EOFError:
+        error_message = f"Unexpected end of file while loading '{file_path}'"
+        logging.error(error_message)
+        raise CustomException(error_message, sys)
+    except Exception as e:
+        error_message = f"Error occurred while loading '{file_path}': {str(e)}"
+        logging.error(error_message)
+        raise CustomException(error_message, sys)
+    
+def save_function(file_path, obj):
+    with open(file_path, 'wb') as f:
+        pickle.dump(obj, f)
+
